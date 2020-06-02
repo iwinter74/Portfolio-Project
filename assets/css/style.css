@@ -190,7 +190,29 @@ section:nth-of-type(6) nav a {
     font-size: 2em;
     padding-left: 50%;
 }
-
+section:nth-of-type(7) {
+    height: 100vh;
+    background: linear-gradient(#fff,#666);
+}
+section:nth-of-type(7) li {
+    list-style: none;
+    text-align: center;
+    padding: 2em;
+    margin-top: 2em;
+}
+section:nth-of-type(7) a {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 5em;
+    color: black;
+    text-decoration: none;
+}
+section:nth-of-type(7) a:hover {
+    text-decoration: underline;
+}
+section:nth-of-type(7) p {
+    text-align: center;
+    
+}
 
 /* 
 Font: Work Sans,Didact Gothic
